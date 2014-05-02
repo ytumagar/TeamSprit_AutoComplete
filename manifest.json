@@ -1,0 +1,11 @@
+{
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://teamspirit.ap0.visual.force.com/apex/AtkWorkTimeView*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Teamsprit utility",
+   "name": "Teamsprit Utility",
+   "manifest_version": 2,
+   "version": "1.0.0"
+}
